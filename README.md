@@ -4,7 +4,7 @@ This repo implements the minimal “Step Estimator” described in the course ma
 
 ## Quick start
 ### Option A — Google Colab (recommended)
-- Open 03_IndoorLocalisation/StepEstimator.ipynb in Colab.
+- Open StepEstimator.ipynb in Colab.
 - Mount your Drive (cell 1 does this) and set the base path to where PhyphoxData/ lives.
 - Run all cells top-to-bottom. The notebook will:
 - load paired acc*.csv / gyro*.csv files,
@@ -29,7 +29,7 @@ Time (s), Gyroscope x (rad/s), Gyroscope y (rad/s), …
 
 ## Data
 - Files come from the Phyphox app (Android/iOS). Each experiment has one accN.csv and one gyroN.csv recorded over the same time window.
-- Example files are under 03_IndoorLocalisation/PhyphoxData/.
+- Example files are under PhyphoxData/.
 - The notebook trims an initial idle segment and an end margin to reduce boundary effects.
 ### Expected CSV columns
 - Accelerometer: Time (s), Acceleration x/y/z (m/s^2), Absolute acceleration (m/s^2)
